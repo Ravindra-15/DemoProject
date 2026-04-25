@@ -13,7 +13,7 @@ const addUser = (req, res) => {
     }
 
     res.status(201).json({
-      message: "User added successfully",
+      message: "User added successfully helllllllo",
       userId: result.insertId,
     });
   });
